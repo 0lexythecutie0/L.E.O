@@ -1,1 +1,6 @@
-{}
+{
+  "item_group.l_e_o.lexys_extended_orgins": "Lexys Extended Orgins",
+  "gamerule.debug": "Debug",
+  "gamerule.debug.description": "Debug",
+  "item.l_e_o.orb_of_regret": "Orb Of Regret"
+}

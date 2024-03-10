@@ -1,0 +1,137 @@
+{
+  "mod_elements": [
+    {
+      "name": "LexysExtendedOrgins",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lexys_extended_orgins",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "OrbOfRegret",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orb_of_regret",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/l_e_o/models/item/orb_of_regret.json",
+          "src/main/java/net/mcreator/leo/item/OrbOfRegretItem.java"
+        ]
+      }
+    },
+    {
+      "name": "OpenOrginMenuOnFreshStart",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_orgin_menu_on_fresh_start",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/leo/procedures/OpenOrginMenuOnFreshStartProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CheckOrginStatus",
+      "type": "command",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "check_orgin_status",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/leo/command/CheckOrginStatusCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "ToggleHasOrginProcedure",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toggle_has_orgin_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/leo/procedures/ToggleHasOrginProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ToggleHasOrgin",
+      "type": "command",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toggle_has_orgin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/leo/command/ToggleHasOrginCommand.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "HasOrgin",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "Debug",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item_group.l_e_o.lexys_extended_orgins": "Lexys Extended Orgins",
+      "item.l_e_o.orb_of_regret": "Orb Of Regret"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "l_e_o",
+    "modName": "Lexy\u0027s Extended Orgins",
+    "version": "1.0.0",
+    "author": "Aalle, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.leo",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}
